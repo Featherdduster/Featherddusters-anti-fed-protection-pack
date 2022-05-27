@@ -5,7 +5,7 @@ license="GPL3"
 
 #Our Mod Info
 [[mods]]
-modId="tac_extra"
+modId="moonshine"
 version="0.3"
 displayName="Timeless and Classic Mod Addon"
 updateJSONURL="https://raw.githubusercontent.com/"
@@ -23,25 +23,25 @@ description='The Timeless and Classic addon introduces a multitude of older weap
 #The fields marked with mandatory need to be present when loading the game
 #They are present in the IDE as we added them to our build.gradle file
 #Something like controllable isn't needed, however, we still add it as the mod supports that and adds features around it.
-[[dependencies.tac_extra]]
+[[dependencies.moonshine]]
     modId="forge"
     mandatory=true
     versionRange="[32,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.tac_extra]]
+[[dependencies.moonshine]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.3,1.16.4,1.16.5,1.17)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.tac_extra]]
+[[dependencies.moonshine]]
     modId="tac"
     mandatory=true
     versionRange="[0.1.4,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.tac_extra]]
+[[dependencies.moonshine]]
     modId="obfuscate"
     mandatory=true
     versionRange="[0.6.0,)"

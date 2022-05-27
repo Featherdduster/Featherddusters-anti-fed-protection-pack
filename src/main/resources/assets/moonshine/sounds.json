@@ -1,0 +1,14 @@
+{
+  "item.fire_30-30": {
+    "subtitle": "subtitle.moonshine.fire_30-30fire",
+    "sounds": [
+      { "name": "moonshine:item/30-30_fire" }
+    ]
+  },
+  "item.fire_30-30s": {
+    "subtitle": "subtitle.moonshine.fire_30-30fires",
+    "sounds": [
+      { "name": "moonshine:item/30-30_fires" }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "moonshine:block/9mm_box_block"
+    },
+    "facing=east": {
+      "model": "moonshine:block/9mm_box_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "moonshine:block/9mm_box_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "moonshine:block/9mm_box_block",
+      "y": 270
+    }
+  }
+}
