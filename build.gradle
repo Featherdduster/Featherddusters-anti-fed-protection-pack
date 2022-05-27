@@ -29,7 +29,7 @@ minecraft {
             property "mixin.env.disableRefMap", "true"
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
-            arg '-mixin.config=tac_extra.mixins.json'
+            arg '-mixin.config=moonshine.mixins.json'
 
             mods {
                 timeless_and_classic {
@@ -42,7 +42,7 @@ minecraft {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
-            arg '-mixin.config=tac_extra.mixins.json'
+            arg '-mixin.config=moonshine.mixins.json'
 
             mods {
                 timeless_and_classic {
@@ -55,8 +55,8 @@ minecraft {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
-            args '--mod', 'tac_extra', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
-            arg '-mixin.config=tac_extra.mixins.json'
+            args '--mod', 'moonshine', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            arg '-mixin.config=moonshine.mixins.json'
 
             mods {
                 timeless_and_classic {
@@ -74,21 +74,19 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.22'
     compile fg.deobf('curse.maven:obfuscate-289380:3169370')
-    compile fg.deobf('curse.maven:controllable-317269:3196545')
     compile fg.deobf('curse.maven:timeless-and-classics-491264:3802219')
-    compile fg.deobf('curse.maven:configured-457570:3244520')
  }
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "tac_extra Addon",
+                "Specification-Title"     : "moonshine Addon",
                 "Specification-Vendor"    : "ClumsyAlien",
                 "Specification-Version"   : "1",
-                "Implementation-Title"    : "tac_extra Addon",
+                "Implementation-Title"    : "moonshine Addon",
                 "Implementation-Version"  : project.version,
                 "Implementation-Vendor"   : "ClumsyAlien",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
-                "MixinConfigs"            : "tac_extra.mixins.json"
+                "MixinConfigs"            : "moonshine.mixins.json"
         ])
     }
 }
