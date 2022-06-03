@@ -10,5 +10,11 @@
     "sounds": [
       { "name": "moonshine:item/30-30_fires" }
     ]
+  },
+  "item.raiphala": {
+    "subtitle": "subtitle.moonshine.raiphala",
+    "sounds": [
+      { "name": "moonshine:item/raiphala" }
+    ]
   }
 }

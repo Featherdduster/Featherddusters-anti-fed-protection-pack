@@ -74,7 +74,8 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.22'
     compile fg.deobf('curse.maven:obfuscate-289380:3169370')
-    compile fg.deobf('curse.maven:timeless-and-classics-491264:3802219')
+    compile fg.deobf('curse.maven:timeless-and-classics-491264:3812601')
+    compile 'com.google.code.gson:gson:2.9.0'
  }
 jar {
     manifest {

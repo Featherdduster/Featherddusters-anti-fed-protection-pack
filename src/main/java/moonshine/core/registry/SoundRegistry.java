@@ -16,6 +16,7 @@ public class SoundRegistry {
     public static final DeferredRegister<SoundEvent> SOUND_REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, moonshine.ID);
     // Register the name of the sound via the Object name for each block in our sounds.json
     public static final RegistryObject<SoundEvent> FIRE_30 = register("item.fire_30-30");
+    public static final RegistryObject<SoundEvent> raiphala = register("item.raiphala");
 
     private static RegistryObject<SoundEvent> register(String key) {
         return SOUND_REGISTRY.register(key, () -> new SoundEvent(new ResourceLocation(moonshine.ID, key)));

@@ -1,5 +1,6 @@
 package moonshine.core.registry;
 
+import com.tac.guns.item.TransitionalTypes.TimelessAmmoItem;
 import com.tac.guns.item.TransitionalTypes.TimelessGunItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
@@ -63,6 +64,20 @@ public class ItemRegistry {
 
 	//public static final RegistryObject<TimelessGunItem> M1894 = ITEM_REGISTRY.register("m1894", TimelessGunItem::new);
 	public static final RegistryObject<TimelessGunItem> Raiphala_Skh_3 = ITEM_REGISTRY.register("raiphala_skh_3", TimelessGunItem::new);
+	public static final RegistryObject<TimelessGunItem> Type3_Mod2= ITEM_REGISTRY.register("type3_mod2", TimelessGunItem::new);
+	public static final RegistryObject<TimelessGunItem> light_crossbow_100lbs= ITEM_REGISTRY.register("light_crossbow_100lbs", TimelessGunItem::new);
+	public static final RegistryObject<MBPGunItem> breechloading_arquebus= ITEM_REGISTRY.register("breechloading_arquebus", MBPGunItem::new);
+	public static final RegistryObject<MBPGunItem> arquebus= ITEM_REGISTRY.register("arquebus", MBPGunItem::new);
+	public static final RegistryObject<TimelessGunItem> type1_mod3= ITEM_REGISTRY.register("type1_mod3", TimelessGunItem::new);
+	public static final RegistryObject<TimelessGunItem> type1_mod3c= ITEM_REGISTRY.register("type1_mod3c", TimelessGunItem::new);
+	public static final RegistryObject<TimelessGunItem> deanson_conversion= ITEM_REGISTRY.register("deanson_conversion", TimelessGunItem::new);
+	public static final RegistryObject<TimelessGunItem> deanson_conversion_commercial= ITEM_REGISTRY.register("deanson_conversion_commercial", TimelessGunItem::new);
+
+
+	public static final RegistryObject<TimelessAmmoItem> round42r_long = ITEM_REGISTRY.register("round42r_long", TimelessAmmoItem::new);
+	public static final RegistryObject<TimelessAmmoItem> round42r_short = ITEM_REGISTRY.register("round42r_short", TimelessAmmoItem::new);
+
+
 	//public static final RegistryObject<TimelessOldRifleGunItem> M1894 = ITEM_REGISTRY.register("m1894", TimelessOldRifleGunItem::new); TimelessOldRifleGunItem allows the oldScope attachment to be accessible
 	//public static final RegistryObject<TimelessPistolGunItem> M1894 = ITEM_REGISTRY.register("m1894", TimelessPistolGunItem::new); TimelessPistolGunItem allows the pistolScope and pistolBarrel to be accessible
 
@@ -74,5 +89,4 @@ public class ItemRegistry {
 
 	// Here I also create some new Ammunition for my mod! Not a necessary piece as you can continue using the original "tac:" ammo!
 	/*public static final RegistryObject<TimelessAmmoItem> MAGNUM_BULLET = ITEM_REGISTRY.register("magnumround", TimelessAmmoItem::new);*/
-	
 }
