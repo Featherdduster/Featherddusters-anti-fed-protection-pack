@@ -72,6 +72,7 @@ public class ItemRegistry {
 	public static final RegistryObject<TimelessGunItem> type1_mod3c= ITEM_REGISTRY.register("type1_mod3c", TimelessGunItem::new);
 	public static final RegistryObject<TimelessGunItem> deanson_conversion= ITEM_REGISTRY.register("deanson_conversion", TimelessGunItem::new);
 	public static final RegistryObject<TimelessGunItem> deanson_conversion_commercial= ITEM_REGISTRY.register("deanson_conversion_commercial", TimelessGunItem::new);
+	public static final RegistryObject<TimelessGunItem> trapdoor_rifle= ITEM_REGISTRY.register("trapdoor_rifle", TimelessGunItem::new);
 
 
 	public static final RegistryObject<TimelessAmmoItem> round42r_long = ITEM_REGISTRY.register("round42r_long", TimelessAmmoItem::new);
