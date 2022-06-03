@@ -27,7 +27,7 @@
     "openBolt": true
   },
   "projectile": {
-    "item": "tac:win_30-30",
+    "item": "moonshine:round52_60",
     "visible": false,
     "gravity": true,
     "damage": 20,

@@ -77,6 +77,7 @@ public class ItemRegistry {
 
 	public static final RegistryObject<TimelessAmmoItem> round42r_long = ITEM_REGISTRY.register("round42r_long", TimelessAmmoItem::new);
 	public static final RegistryObject<TimelessAmmoItem> round42r_short = ITEM_REGISTRY.register("round42r_short", TimelessAmmoItem::new);
+	public static final RegistryObject<TimelessAmmoItem> round52_60_long = ITEM_REGISTRY.register("round52_60", TimelessAmmoItem::new);
 
 
 	//public static final RegistryObject<TimelessOldRifleGunItem> M1894 = ITEM_REGISTRY.register("m1894", TimelessOldRifleGunItem::new); TimelessOldRifleGunItem allows the oldScope attachment to be accessible
