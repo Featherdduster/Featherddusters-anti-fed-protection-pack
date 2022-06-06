@@ -15,7 +15,7 @@
     "recoilDuration": 0.125,
     "cameraRecoilModifier": 2.0,
     "alwaysSpread": true,
-    "spread": 1.00,
+    "spread": 2.00,
     "weightKilo": 4.1
   },
   "reloads": {
@@ -23,11 +23,11 @@
     "maxAmmo": 1,
     "reloadAmount": 1,
     "preReloadPauseTicks": 16,
-    "interReloadPauseTicks": 36,
+    "interReloadPauseTicks": 100,
     "openBolt": true
   },
   "projectile": {
-    "item": "moonshine:round52_60",
+    "item": "moonshine:roundball_76",
     "visible": false,
     "gravity": true,
     "damage": 20,

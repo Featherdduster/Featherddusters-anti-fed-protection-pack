@@ -26,7 +26,7 @@
     "openBolt": true
   },
   "projectile": {
-    "item": "tac:10_gauge_round",
+    "item": "moonshine:roundball_76",
     "visible": false,
     "damage": 24,
     "size": 1.0,
