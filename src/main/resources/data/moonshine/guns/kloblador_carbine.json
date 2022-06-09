@@ -28,13 +28,13 @@
   "projectile": {
     "item": "moonshine:kloblador_41",
     "visible": false,
-    "damage": 4.25,
+    "damage": 8.25,
     "size": 0.2,
     "speed": 17.5,
     "life": 4
   },
   "sounds": {
-    "fire": "tac:item.fire_m92fs",
+    "fire": "tac:item.sten",
     "reload": "tac:item.pistol.reload",
     "cock": "tac:item.pistol.cock",
     "silencedFire": "tac:item.fire_m92fss"
@@ -48,11 +48,13 @@
     "weaponType": 2
   },
   "modules": {
-    "zoom": [{
+    "zoom": {
       "fovModifier": 0.9,
-      "yOffset": 10.65,
-      "zOffset": -17.53
-    }],
+      "stabilityOffset": 0.225,
+      "xOffset": 0.0,
+      "yOffset": 14.250000000000002,
+      "zOffset": -13.43
+    },
     "attachments": {}
   }
 }

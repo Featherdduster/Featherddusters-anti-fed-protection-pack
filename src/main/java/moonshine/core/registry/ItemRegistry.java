@@ -71,6 +71,7 @@ public class ItemRegistry {
 	public static final RegistryObject<TimelessGunItem> type1_mod3= ITEM_REGISTRY.register("type1_mod3", TimelessGunItem::new);
 	public static final RegistryObject<TimelessGunItem> type1_mod3c= ITEM_REGISTRY.register("type1_mod3c", TimelessGunItem::new);
 	public static final RegistryObject<TimelessGunItem> deanson_conversion= ITEM_REGISTRY.register("deanson_conversion", TimelessGunItem::new);
+	public static final RegistryObject<TimelessGunItem> deanson_percussion_revolver= ITEM_REGISTRY.register("deanson_percussion_revolver", TimelessGunItem::new);
 	public static final RegistryObject<TimelessGunItem> deanson_conversion_commercial= ITEM_REGISTRY.register("deanson_conversion_commercial", TimelessGunItem::new);
 	public static final RegistryObject<TimelessGunItem> trapdoor_rifle= ITEM_REGISTRY.register("trapdoor_rifle", TimelessGunItem::new);
 	public static final RegistryObject<TimelessGunItem> trapdoor_sawed_off= ITEM_REGISTRY.register("trapdoor_sawed_off", TimelessGunItem::new);
@@ -87,6 +88,7 @@ public class ItemRegistry {
 	public static final RegistryObject<TimelessAmmoItem> roundball_76 = ITEM_REGISTRY.register("roundball_76", TimelessAmmoItem::new);
 	public static final RegistryObject<TimelessAmmoItem> shot_76 = ITEM_REGISTRY.register("shot_76", TimelessAmmoItem::new);
 	public static final RegistryObject<TimelessAmmoItem> paper_52= ITEM_REGISTRY.register("paper_52", TimelessAmmoItem::new);
+	public static final RegistryObject<TimelessAmmoItem> paper_42= ITEM_REGISTRY.register("paper_42", TimelessAmmoItem::new);
 
 
 	//public static final RegistryObject<TimelessOldRifleGunItem> M1894 = ITEM_REGISTRY.register("m1894", TimelessOldRifleGunItem::new); TimelessOldRifleGunItem allows the oldScope attachment to be accessible

@@ -1,7 +1,7 @@
 {
   "general": {
     "auto": true,
-    "rate": 3,
+    "rate": 2,
     "rateSelector": [0,2],
     "gripType": "tac:two_handed_ak47",
     "recoilAngle": 1.2875,
@@ -24,9 +24,9 @@
     "openBolt": true
   },
   "projectile": {
-    "item": "tac:9mm_round",
+    "item": "moonshine:kloblador_41",
     "visible": true,
-    "damage": 3.25,
+    "damage": 8.25,
     "size": 0.1,
     "speed": 18.5,
     "life": 4,
@@ -50,13 +50,13 @@
     "weaponType": 4
   },
   "modules": {
-    "zoom": [
+    "zoom": 
       {
         "fovModifier": 0.9,
         "yOffset": 9.425,
         "zOffset": -4.75
       }
-    ],
+    ,
     "attachments": {}
   }
 }

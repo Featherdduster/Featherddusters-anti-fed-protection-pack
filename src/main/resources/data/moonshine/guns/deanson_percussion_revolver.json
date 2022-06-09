@@ -22,13 +22,13 @@
     "maxAmmo": 6,
     "reloadAmount": 1,
     "preReloadPauseTicks": 8,
-    "interReloadPauseTicks": 30,
+    "interReloadPauseTicks": 150,
     "openBolt": true
   },
   "projectile": {
     "item": "moonshine:round42r_long",
     "visible": false,
-    "damage": 8.75,
+    "damage": 8.50,
     "size": 0.3,
     "speed": 7.5,
     "life": 12

@@ -48,13 +48,13 @@
 		"weaponType": 2
 	},
 	"modules": {
-		"zoom": [
-			{
-				"fovModifier": 0.7,
-				"yOffset": 4.85,
-				"zOffset": -11.1
-			}
-		],
+		"zoom": {
+			"fovModifier": 0.7,
+			"stabilityOffset": 0.225,
+			"xOffset": 0.0,
+			"yOffset": 5.35,
+			"zOffset": -11.1
+		},
 		"attachments": {}
 	}
 }

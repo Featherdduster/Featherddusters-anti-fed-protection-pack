@@ -15,8 +15,8 @@ apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
 version = '0.2-1.16.4'
-group = 'timeless_and_classic_extra'
-archivesBaseName = 'timeless_and_classic_extra'
+group = 'Moonshine_Armory'
+archivesBaseName = 'Moonshine_Armory'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -74,7 +74,7 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.22'
     compile fg.deobf('curse.maven:obfuscate-289380:3169370')
-    compile fg.deobf('curse.maven:timeless-and-classics-491264:3812601')
+    compile fg.deobf('curse.maven:timeless-and-classics-491264:3821613')
     compile 'com.google.code.gson:gson:2.9.0'
  }
 jar {

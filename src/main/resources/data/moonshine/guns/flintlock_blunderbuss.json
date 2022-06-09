@@ -51,11 +51,11 @@
     "weaponType": 5
   },
   "modules": {
-    "zoom": [{
+    "zoom": {
       "fovModifier": 0.7,
       "yOffset": 8.4,
       "zOffset": -5.7
-    }],
+    },
     "attachments": {
       "oldScope": {
         "yOffset": 7.375,
