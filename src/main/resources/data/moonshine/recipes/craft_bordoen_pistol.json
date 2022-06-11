@@ -1,0 +1,32 @@
+{
+  "type": "tac:workbench",
+  "result": {
+    "item": "moonshine:bordoen_pistol"
+  },
+  "materials": [
+    {
+      "item": "immersiveengineering:stick_steel",
+      "count": 1
+    },
+    {
+      "item": "immersiveengineering:component_steel",
+      "count": 3
+    },
+    {
+      "item": "immersiveengineering:plate_steel",
+      "count": 2
+    },
+    {
+      "item": "immersiveengineering:steel_ingot",
+      "count": 1
+    },
+    {
+      "item": "immersiveengineering:aluminium_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:oak_log",
+      "count": 1
+    }
+  ]
+}

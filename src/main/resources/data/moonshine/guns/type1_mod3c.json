@@ -36,7 +36,7 @@
     "life": 6
   },
   "sounds": {
-    "fire": "tac:item.raiphala",
+    "fire": "moonshine:item.raiphala",
     "reload": "tac:item.pistol.reload",
     "cock": "tac:item.pistol.cock",
     "silencedFire": "tac:item.assault_rifle.silenced_fire"
@@ -52,9 +52,11 @@
   "modules": {
     "zoom": {
       "fovModifier": 0.7,
-      "yOffset": 10.1,
+      "stabilityOffset": 0.225,
+      "xOffset": 0.0,
+      "yOffset": 10.4,
       "zOffset": -8.85
     },
-    "attachments": { }
+    "attachments": {}
   }
 }

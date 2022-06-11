@@ -1,0 +1,32 @@
+{
+  "type": "tac:workbench",
+  "result": {
+    "item": "moonshine:deanson_percussion_revolver"
+  },
+  "materials": [
+    {
+      "item": "immersiveengineering:stick_iron",
+      "count": 1
+    },
+    {
+      "item": "immersiveengineering:component_iron",
+      "count": 3
+    },
+    {
+      "item": "immersiveengineering:plate_iron",
+      "count": 2
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 1
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 6
+    },
+    {
+      "item": "minecraft:oak_log",
+      "count": 1
+    }
+  ]
+}

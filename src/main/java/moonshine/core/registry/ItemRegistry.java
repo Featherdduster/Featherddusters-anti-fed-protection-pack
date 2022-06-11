@@ -63,7 +63,9 @@ public class ItemRegistry {
 			GunTypes are not ready, and I only wish to add one extra detail to the current guns)*/
 
 	//public static final RegistryObject<TimelessGunItem> M1894 = ITEM_REGISTRY.register("m1894", TimelessGunItem::new);
-	public static final RegistryObject<TimelessGunItem> Raiphala_Skh_3 = ITEM_REGISTRY.register("raiphala_skh_3", TimelessGunItem::new);
+	public static final RegistryObject<TimelessGunItem> Raiphala_Skh_3= ITEM_REGISTRY.register("raiphala_skh_3", TimelessGunItem::new);
+	public static final RegistryObject<TimelessGunItem> Raiphala_Skh_2= ITEM_REGISTRY.register("raiphala_skh_2", TimelessGunItem::new);
+	public static final RegistryObject<TimelessGunItem> Raiphala_Skh_1= ITEM_REGISTRY.register("raiphala_skh_1", TimelessGunItem::new);
 	public static final RegistryObject<TimelessGunItem> Type3_Mod2= ITEM_REGISTRY.register("type3_mod2", TimelessGunItem::new);
 	public static final RegistryObject<TimelessGunItem> light_crossbow_100lbs= ITEM_REGISTRY.register("light_crossbow_100lbs", TimelessGunItem::new);
 	public static final RegistryObject<MBPGunItem> breechloading_arquebus= ITEM_REGISTRY.register("breechloading_arquebus", MBPGunItem::new);
@@ -79,7 +81,7 @@ public class ItemRegistry {
 	public static final RegistryObject<TimelessGunItem> flintlock_musket= ITEM_REGISTRY.register("flintlock_musket", TimelessGunItem::new);
 	public static final RegistryObject<TimelessGunItem> flintlock_blunderbuss= ITEM_REGISTRY.register("flintlock_blunderbuss", TimelessGunItem::new);
 	public static final RegistryObject<TimelessGunItem> percussion_rifle= ITEM_REGISTRY.register("percussion_rifle", TimelessGunItem::new);
-
+	public static final RegistryObject<TimelessGunItem> bordoen_pistol= ITEM_REGISTRY.register("bordoen_pistol", TimelessGunItem::new);
 
 	public static final RegistryObject<TimelessAmmoItem> kloblador_41= ITEM_REGISTRY.register("kloblador_41", TimelessAmmoItem::new);
 	public static final RegistryObject<TimelessAmmoItem> round42r_long = ITEM_REGISTRY.register("round42r_long", TimelessAmmoItem::new);

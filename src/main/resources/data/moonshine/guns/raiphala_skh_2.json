@@ -1,7 +1,7 @@
 {
   "general": {
     "boltAction": true,
-    "rate": 22,
+    "rate": 32,
     "rateSelector": [
       0,
       1
@@ -20,43 +20,43 @@
   },
   "reloads": {
     "magFed": false,
-    "maxAmmo": 7,
-    "reloadAmount": 1,
+    "maxAmmo": 4,
+    "reloadAmount": 4,
     "preReloadPauseTicks": 13,
-    "interReloadPauseTicks": 12,
+    "interReloadPauseTicks": 18,
     "openBolt": true
   },
   "projectile": {
-    "item": "tac:win_30-30",
+    "item": "moonshine:round52_60",
     "visible": false,
     "gravity": true,
-    "damage": 16,
+    "damage": 24,
     "size": 0.2,
-    "speed": 80.0,
-    "life": 6
+    "speed": 110.0,
+    "life": 4
   },
   "sounds": {
     "fire": "moonshine:item.raiphala",
     "reload": "tac:item.pistol.reload",
     "cock": "tac:item.pistol.cock",
-    "silencedFire": "tac:item.assault_rifle.silenced_fire"
+    "silencedFire": "tac:item.fire_mosin-nagant"
   },
   "display": {
     "flash": {
-      "yOffset": 8.65,
-      "zOffset": -25.40,
-      "size": 1.15
-    },
-    "weaponType": 5
+      "yOffset": 5.1,
+      "zOffset": -29.90,
+      "size": 1.3
+    }
   },
-  "modules": {
-    "zoom": {
-      "fovModifier": 0.7,
-      "stabilityOffset": 0.225,
-      "xOffset": 0.0,
-      "yOffset": 10.4,
-      "zOffset": -8.85
-    },
-    "attachments": {}
+    "modules": {
+      "zoom": {
+        "fovModifier": 0.65,
+        "stabilityOffset": 0.225,
+        "xOffset": 0.0,
+        "yOffset": 7.6000000000000005,
+        "zOffset": -6.4
+      },
+      "attachments": {}
+    }
   }
 }

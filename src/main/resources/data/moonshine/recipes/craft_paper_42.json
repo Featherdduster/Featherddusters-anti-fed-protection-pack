@@ -1,0 +1,25 @@
+{
+  "type": "tac:workbench",
+  "result": {
+    "item": "moonshine:paper_42",
+    "count": 6
+  },
+  "materials": [
+    {
+      "item": "immersiveengineering:nugget_lead",
+      "count": 1
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "count": 1
+    },
+    {
+      "item": "minecraft:paper",
+      "count": 1
+    },
+    {
+      "item": "immersiveengineering:nugget_copper",
+      "count": 1
+    }
+  ]
+}

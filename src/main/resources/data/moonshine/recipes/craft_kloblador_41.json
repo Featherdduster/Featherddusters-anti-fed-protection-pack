@@ -1,0 +1,21 @@
+{
+  "type": "tac:workbench",
+  "result": {
+    "item": "moonshine:kloblador_41",
+    "count": 6
+  },
+  "materials": [
+    {
+      "item": "immersiveengineering:nugget_lead",
+      "count": 1
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "count": 1
+    },
+    {
+      "item": "immersiveengineering:plate_iron",
+      "count": 1
+    }
+  ]
+}
