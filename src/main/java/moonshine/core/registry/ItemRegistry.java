@@ -82,15 +82,26 @@ public class ItemRegistry {
 	public static final RegistryObject<TimelessGunItem> flintlock_blunderbuss= ITEM_REGISTRY.register("flintlock_blunderbuss", TimelessGunItem::new);
 	public static final RegistryObject<TimelessGunItem> percussion_rifle= ITEM_REGISTRY.register("percussion_rifle", TimelessGunItem::new);
 	public static final RegistryObject<TimelessGunItem> bordoen_pistol= ITEM_REGISTRY.register("bordoen_pistol", TimelessGunItem::new);
+	public static final RegistryObject<TimelessGunItem> rolling_block= ITEM_REGISTRY.register("rolling_block", TimelessGunItem::new);
+	public static final RegistryObject<TimelessGunItem> skh_1_sawnoff= ITEM_REGISTRY.register("skh_1_sawnoff", TimelessGunItem::new);
+	public static final RegistryObject<TimelessGunItem> pinfire_revolver_a= ITEM_REGISTRY.register("pinfire_revolver_a", TimelessGunItem::new);
+	public static final RegistryObject<TimelessGunItem> Type2_Mod2= ITEM_REGISTRY.register("type2_mod2", TimelessGunItem::new);
+	public static final RegistryObject<TimelessGunItem> Type5_Mod2= ITEM_REGISTRY.register("type5_mod2", TimelessGunItem::new);
+	public static final RegistryObject<TimelessGunItem> vetterli_carbine= ITEM_REGISTRY.register("vetterli_carbine", TimelessGunItem::new);
 
-	public static final RegistryObject<TimelessAmmoItem> kloblador_41= ITEM_REGISTRY.register("kloblador_41", TimelessAmmoItem::new);
-	public static final RegistryObject<TimelessAmmoItem> round42r_long = ITEM_REGISTRY.register("round42r_long", TimelessAmmoItem::new);
-	public static final RegistryObject<TimelessAmmoItem> round42r_short = ITEM_REGISTRY.register("round42r_short", TimelessAmmoItem::new);
-	public static final RegistryObject<TimelessAmmoItem> round52_60_long = ITEM_REGISTRY.register("round52_60", TimelessAmmoItem::new);
-	public static final RegistryObject<TimelessAmmoItem> roundball_76 = ITEM_REGISTRY.register("roundball_76", TimelessAmmoItem::new);
-	public static final RegistryObject<TimelessAmmoItem> shot_76 = ITEM_REGISTRY.register("shot_76", TimelessAmmoItem::new);
-	public static final RegistryObject<TimelessAmmoItem> paper_52= ITEM_REGISTRY.register("paper_52", TimelessAmmoItem::new);
-	public static final RegistryObject<TimelessAmmoItem> paper_42= ITEM_REGISTRY.register("paper_42", TimelessAmmoItem::new);
+
+	public static final RegistryObject<Item> kloblador_41= ITEM_REGISTRY.register("kloblador_41", TimelessAmmoItem::new);
+	public static final RegistryObject<Item> round42r_long = ITEM_REGISTRY.register("round42r_long", TimelessAmmoItem::new);
+	public static final RegistryObject<Item> round42r_short = ITEM_REGISTRY.register("round42r_short", TimelessAmmoItem::new);
+	public static final RegistryObject<Item> round52_60_long = ITEM_REGISTRY.register("round52_60", TimelessAmmoItem::new);
+	public static final RegistryObject<Item> roundball_76 = ITEM_REGISTRY.register("roundball_76", TimelessAmmoItem::new);
+	public static final RegistryObject<Item> shot_76 = ITEM_REGISTRY.register("shot_76", TimelessAmmoItem::new);
+	public static final RegistryObject<Item> paper_52= ITEM_REGISTRY.register("paper_52", TimelessAmmoItem::new);
+	public static final RegistryObject<Item> paper_42= ITEM_REGISTRY.register("paper_42", TimelessAmmoItem::new);
+	public static final RegistryObject<Item> raiphala_7_6 = ITEM_REGISTRY.register("raiphala_7_6", TimelessAmmoItem::new);
+	public static final RegistryObject<Item> bordeon9_2_x23= ITEM_REGISTRY.register("bordeon9_2_x23", TimelessAmmoItem::new);
+	public static final RegistryObject<Item> raiphala_10_4= ITEM_REGISTRY.register("raiphala_10_4", TimelessAmmoItem::new);
+	public static final RegistryObject<Item> round36_30 = ITEM_REGISTRY.register("round36_30", TimelessAmmoItem::new);
 
 
 	//public static final RegistryObject<TimelessOldRifleGunItem> M1894 = ITEM_REGISTRY.register("m1894", TimelessOldRifleGunItem::new); TimelessOldRifleGunItem allows the oldScope attachment to be accessible

@@ -11,13 +11,18 @@
   "item.moonshine.trapdoor_rifle_sawed_off": "Trapdoor Cartrige Conversion Rifle (Sawn_off)",
   "item.moonshine.raiphala_skh_3": "Raiphala Skh 3 Service Rifle",
   "item.moonshine.raiphala_skh_1": "Raiphala Skh 1 Rolling Block Rifle",
-  "item.moonshine.raiphala_skh_2": "Raiphala Skh 2 Old Service Rifle",
+  "item.moonshine.raiphala_skh_2": "Raiphala Skh 2 Service Rifle",
   "item.moonshine.bordoen_pistol": "Bordoen Self-Loading Pistol",
   "item.moonshine.type1_mod3": "Type 1, Mod 3 Service Rifle",
   "item.moonshine.type1_mod3c": "Type 1, Mod 3 Service Carbine",
   "item.moonshine.type3_mod2": "Type 3, Mod 2, Submachine Carbine",
   "item.moonshine.kloblador_carbine": "Kloblador Carbine",
   "item.moonshine.light_crossbow_100lbs": "Light Crossbow (100lb Draw)",
+  "item.moonshine.rolling_block": "Rolling Block Rifle",
+  "item.moonshine.pinfire_revolver_a": "Clemont Pinfire Revolver",
+  "item.moonshine.vetterli_carbine": "Vetterli Carbine",
+
+
 
   "item.moonshine.kloblador_41": ".41cal Kloblador self loading pistol cartrige ",
   "item.moonshine.round52_60": ".52-60 Ammunition",
@@ -27,6 +32,11 @@
   "item.moonshine.paper_42": ".42cal paper cartrige and percussion caps",
   "item.moonshine.round42r_long": ".42r long pistol cartrige",
   "item.moonshine.round42r_short": ".42r short pistol cartrige",
+  "item.moonshine.bordeon9_2_x23": "9.2x23 Bordeon Autolading Ammunition",
+  "item.moonshine.raiphala_7_6": "Raiphala 7.6mm Service Ammunition",
+  "item.moonshine.raiphala_10_4": "Raiphala 10.4mm Service Ammunition",
+  "item.moonshine.round36_30": ".36-30 Light Rifle Ammunition",
+
 
   "gui.moonshine.timeless_workbench.assemble": "Assemble",
   "gui.moonshine.timeless_workbench.show_remaining": "Show Remaining",

@@ -26,7 +26,7 @@
     "openBolt": true
   },
   "projectile": {
-    "item": "moonshine:round42r_long",
+    "item": "moonshine:round42r_short",
     "visible": false,
     "damage": 8.50,
     "size": 0.3,

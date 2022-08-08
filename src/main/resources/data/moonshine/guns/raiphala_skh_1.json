@@ -27,7 +27,7 @@
     "openBolt": true
   },
   "projectile": {
-    "item": "moonshine:round52_60",
+    "item": "moonshine:raiphala_10_4",
     "visible": false,
     "gravity": true,
     "damage": 24,
@@ -48,15 +48,15 @@
       "size": 1.3
     }
   },
-    "modules": {
-      "zoom": {
-        "fovModifier": 0.65,
-        "stabilityOffset": 0.225,
-        "xOffset": 0.0,
-        "yOffset": 7.6000000000000005,
-        "zOffset": -6.4
-      },
-      "attachments": {}
+  "modules": {
+    "zoom": {
+      "fovModifier": 0.65,
+      "stabilityOffset": 0.225,
+      "xOffset": 0.0,
+      "yOffset": 7.21,
+      "zOffset": -2.8999999999999986
+    },
+    "attachments": {}
     }
   }
 }

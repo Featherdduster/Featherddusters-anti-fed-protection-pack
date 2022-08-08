@@ -19,7 +19,7 @@
   },
   "reloads": {
     "magFed": true,
-    "maxAmmo": 8,
+    "maxAmmo": 15,
     "reloadMagTimer": 38,
     "additionalReloadEmptyMagTimer": 6,
     "maxAdditionalAmmoPerOC": [
@@ -30,7 +30,7 @@
     "preReloadPauseTicks": 7
   },
   "projectile": {
-    "item": "moonshine:bordeon9_2_x23",
+    "item": "moonshine:kloblador_41",
     "visible": false,
     "damage": 8,
     "size": 0.2,

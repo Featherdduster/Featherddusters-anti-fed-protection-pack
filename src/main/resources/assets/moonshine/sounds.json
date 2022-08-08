@@ -11,10 +11,16 @@
       { "name": "moonshine:item/30-30_fires" }
     ]
   },
-  "item.raiphala": {
-    "subtitle": "subtitle.moonshine.raiphala",
+  "item.raiphala_fire": {
+    "subtitle": "subtitle.moonshine.raiphala_fire",
     "sounds": [
-      { "name": "moonshine:item/raiphala" }
+      { "name": "moonshine:item/raiphala_fire" }
+    ]
+  },
+  "item.type1_mod3_fire": {
+    "subtitle": "subtitle.moonshine.type1_mod3_fire",
+    "sounds": [
+      { "name": "moonshine:item/type1_mod3_fire" }
     ]
   }
 }

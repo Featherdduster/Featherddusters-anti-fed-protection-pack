@@ -1,7 +1,7 @@
 {
   "general": {
     "boltAction": true,
-    "rate": 22,
+    "rate": 32,
     "rateSelector": [
       0,
       1
@@ -20,23 +20,23 @@
   },
   "reloads": {
     "magFed": false,
-    "maxAmmo": 6,
-    "reloadAmount": 6,
+    "maxAmmo": 1,
+    "reloadAmount": 1,
     "preReloadPauseTicks": 13,
     "interReloadPauseTicks": 18,
     "openBolt": true
   },
   "projectile": {
-    "item": "mmonshine:raiphala_7_6",
+    "item": "moonshine:round52_60",
     "visible": false,
     "gravity": true,
-    "damage": 24,
+    "damage": 20,
     "size": 0.2,
     "speed": 110.0,
     "life": 4
   },
   "sounds": {
-    "fire": "moonshine:item.raiphala_fire",
+    "fire": "tac:item.deagle",
     "reload": "tac:item.pistol.reload",
     "cock": "tac:item.pistol.cock",
     "silencedFire": "tac:item.fire_mosin-nagant"
@@ -53,8 +53,8 @@
       "fovModifier": 0.65,
       "stabilityOffset": 0.225,
       "xOffset": 0.0,
-      "yOffset": 7.5200000000000005,
-      "zOffset": -6.4
+      "yOffset": 7.21,
+      "zOffset": -2.8999999999999986
     },
     "attachments": {}
     }

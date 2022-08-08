@@ -1,7 +1,7 @@
 {
   "general": {
     "boltAction": true,
-    "rate": 32,
+    "rate": 18,
     "rateSelector": [
       0,
       1
@@ -27,7 +27,7 @@
     "openBolt": true
   },
   "projectile": {
-    "item": "tac:762x54",
+    "item": "moonshine:round36_30",
     "visible": false,
     "gravity": true,
     "damage": 23.5,
@@ -36,7 +36,7 @@
     "life": 6
   },
   "sounds": {
-    "fire": "moonshine:item.raiphala",
+    "fire": "moonshine:item.type1_mod3_fire",
     "reload": "tac:item.pistol.reload",
     "cock": "tac:item.pistol.cock",
     "silencedFire": "tac:item.assault_rifle.silenced_fire"

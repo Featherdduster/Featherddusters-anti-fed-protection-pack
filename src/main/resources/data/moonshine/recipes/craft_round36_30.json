@@ -1,0 +1,21 @@
+{
+  "type": "tac:workbench",
+  "result": {
+    "item": "moonshine:round36_30",
+    "count": 6
+  },
+  "materials": [
+    {
+      "item": "immersiveengineering:nugget_copper",
+      "count": 2
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "count": 2
+    },
+    {
+      "item": "immersiveengineering:plate_aluminium",
+      "count": 1
+    }
+  ]
+}

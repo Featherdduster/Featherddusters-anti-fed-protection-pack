@@ -1,0 +1,21 @@
+{
+  "type": "tac:workbench",
+  "result": {
+    "item": "moonshine:raiphala_10_4",
+    "count": 6
+  },
+  "materials": [
+    {
+      "item": "immersiveengineering:nugget_lead",
+      "count": 3
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "count": 2
+    },
+    {
+      "item": "immersiveengineering:plate_iron",
+      "count": 1
+    }
+  ]
+}
