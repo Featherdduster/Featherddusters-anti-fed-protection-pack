@@ -19,7 +19,7 @@
   },
   "reloads": {
     "magFed": true,
-    "maxAmmo": 15,
+    "maxAmmo": 10,
     "reloadMagTimer": 38,
     "additionalReloadEmptyMagTimer": 6,
     "maxAdditionalAmmoPerOC": [
@@ -45,9 +45,11 @@
   },
   "display": {
     "flash": {
-      "yOffset": 11.15,
-      "zOffset": -13.32,
-      "size": 1.1
+      "size": 1.1,
+      "smokeSize": 2.0,
+      "xOffset": 0.0,
+      "yOffset": 13.0,
+      "zOffset": -20.51999999999999
     },
     "weaponType": 2
   },
@@ -55,9 +57,9 @@
     "zoom": {
       "fovModifier": 0.9,
       "stabilityOffset": 0.225,
-      "xOffset": 0.0,
-      "yOffset": 13.0,
-      "zOffset": -15.2
+      "xOffset": -2.7755575615628914E-17,
+      "yOffset": 10.569999999999997,
+      "zOffset": -7.300000000000011
     },
     "attachments": {}
   }

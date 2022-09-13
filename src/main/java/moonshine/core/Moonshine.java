@@ -26,8 +26,8 @@ import java.util.Locale;
 /**
  * Author: ClumsyAlien, codebase and design based off Mr.Pineapple's original addon
  */
-@Mod(moonshine.ID)
-public class moonshine {
+@Mod(Moonshine.ID)
+public class Moonshine {
     //This variable is our mods ID - this must be coherent across the project
     public static final String ID = "moonshine";
 
@@ -53,7 +53,7 @@ public class moonshine {
     private static final Logger LOGGER = LogManager.getLogger();
 
     // Initialize the mod, and all event listeners.
-    public moonshine() {
+    public Moonshine() {
 
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, TimelessConfig.commonSpec);
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();

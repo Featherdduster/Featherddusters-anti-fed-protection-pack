@@ -30,7 +30,7 @@
     "item": "moonshine:paper_52",
     "visible": false,
     "gravity": true,
-    "damage": 18,
+    "damage": 16,
     "size": 0.3,
     "speed": 95.0,
     "life": 4

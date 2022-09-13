@@ -12,7 +12,7 @@
     "cameraRecoilModifier": 1.175,
     "recoilDuration": 0.16,
     "alwaysSpread": true,
-    "spread": 3,
+    "spread": 3.5,
     "projectileAmount": 1,
     "weightKilo": 3.0
   },
@@ -28,7 +28,7 @@
   "projectile": {
     "item": "moonshine:roundball_76",
     "visible": false,
-    "damage": 24,
+    "damage": 12,
     "size": 1.0,
     "speed": 16.5,
     "life": 3,

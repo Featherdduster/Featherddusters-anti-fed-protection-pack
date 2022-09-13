@@ -1,6 +1,6 @@
 {
 	"general": {
-		"rate": 8,
+		"rate": 30,
 		"rateSelector": [
 			0,
 			1
@@ -22,7 +22,7 @@
 		"maxAmmo": 6,
 		"reloadAmount": 1,
 		"preReloadPauseTicks": 8,
-		"interReloadPauseTicks": 28,
+		"interReloadPauseTicks": 55,
 		"openBolt": true
 	},
 	"projectile": {
@@ -35,7 +35,7 @@
 	},
 	"sounds": {
 		"fire": "tac:item.mtar_fire",
-		"reload": "tac:item.pistol.reload",
+		"reload": "moonshine:revolver_gate_load_a",
 		"cock": "tac:item.pistol.cock",
 		"silencedFire": "tac:item.fire_m1911s"
 	},

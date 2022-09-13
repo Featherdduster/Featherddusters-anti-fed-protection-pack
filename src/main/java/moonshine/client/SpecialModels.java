@@ -1,6 +1,6 @@
 package moonshine.client;
 
-import moonshine.core.moonshine;
+import moonshine.core.Moonshine;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.model.IBakedModel;
 import net.minecraft.util.ResourceLocation;
@@ -20,7 +20,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 /**
  * Author: ClumsyAlien
  */
-@EventBusSubscriber(modid = moonshine.ID, value = Dist.CLIENT, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = Moonshine.ID, value = Dist.CLIENT, bus = EventBusSubscriber.Bus.MOD)
 public enum SpecialModels {
     // Each entry represents a special model piece
     GunPart1("gun_part1"),
@@ -34,7 +34,7 @@ public enum SpecialModels {
 
     SpecialModels(String modelName) {
         //Get the file path for the special modes, and set them to true (the are going to be special models)
-        this(new ResourceLocation(moonshine.ID, "special/" + modelName), true);
+        this(new ResourceLocation(Moonshine.ID, "special/" + modelName), true);
     }
 
     //Second Constructor to feed variables

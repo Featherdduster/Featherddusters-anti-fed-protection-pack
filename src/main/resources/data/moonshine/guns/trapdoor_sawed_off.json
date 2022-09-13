@@ -22,22 +22,22 @@
     "maxAmmo": 1,
     "reloadAmount": 1,
     "preReloadPauseTicks": 16,
-    "interReloadPauseTicks": 32,
+    "interReloadPauseTicks": 103,
     "openBolt": true
   },
   "projectile": {
     "item": "moonshine:round52_60",
     "visible": false,
     "gravity": true,
-    "damage": 18,
+    "damage": 16,
     "size": 0.3,
     "speed": 95.0,
     "life": 4
   },
   "sounds": {
     "fire": "tac:item.deagle",
-    "reload": "tac:item.pistol.reload",
-    "cock": "tac:item.pistol.cock",
+    "reload": "tac:item.pistol.cock",
+    "cock": "moonshine:item.trapdoor_loading",
     "silencedFire": "tac:item.assault_rifle.silenced_fire"
   },
   "display": {

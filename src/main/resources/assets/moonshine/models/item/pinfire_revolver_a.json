@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "tac:items/mosin_bolt",
-		"2": "tac:items/ppsh_bolt",
-		"3": "tac:items/python_light",
-		"4": "tac:items/dp28_butt"
+		"1": "moonshine:items/lead",
+		"2": "moonshine:items/steel",
+		"3": "moonshine:items/aged_steel_c",
+		"4": "moonshine:items/paper"
 	},
 	"elements": [
 		{

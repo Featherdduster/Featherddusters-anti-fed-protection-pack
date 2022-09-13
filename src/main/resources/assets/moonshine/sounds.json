@@ -17,6 +17,30 @@
       { "name": "moonshine:item/raiphala_fire" }
     ]
   },
+  "item.revolver_gate_load_a": {
+    "subtitle": "subtitle.moonshine.revolver_gate_load_a",
+    "sounds": [
+      { "name": "moonshine:item/revolver_gate_load_a" }
+      ]
+  },
+  "item.trapdoor_loading": {
+    "subtitle": "subtitle.moonshine.trapdoor_loading",
+    "sounds": [
+      { "name": "moonshine:item/trapdoor_loading" }
+    ]
+  },
+  "item.single_action_fire_a": {
+    "subtitle": "subtitle.moonshine.single_action_fire_a",
+    "sounds": [
+      { "name": "moonshine:item/single_action_fire_a" }
+    ]
+  },
+  "item.gew91_fire": {
+    "subtitle": "subtitle.moonshine.gew91_fire",
+    "sounds": [
+      { "name": "moonshine:item/gew91_fire" }
+    ]
+  },
   "item.type1_mod3_fire": {
     "subtitle": "subtitle.moonshine.type1_mod3_fire",
     "sounds": [

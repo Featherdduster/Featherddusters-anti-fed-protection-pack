@@ -30,7 +30,7 @@
     "item": "moonshine:roundball_76",
     "visible": false,
     "gravity": true,
-    "damage": 20,
+    "damage": 14,
     "size": 0.3,
     "speed": 95.0,
     "life": 4

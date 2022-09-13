@@ -1,7 +1,7 @@
 {
   "general": {
     "boltAction": true,
-    "rate": 22,
+    "rate": 26,
     "rateSelector": [
       0,
       1
@@ -27,7 +27,7 @@
     "openBolt": true
   },
   "projectile": {
-    "item": "mmonshine:raiphala_7_6",
+    "item": "moonshine:raiphala_7_6",
     "visible": false,
     "gravity": true,
     "damage": 24,

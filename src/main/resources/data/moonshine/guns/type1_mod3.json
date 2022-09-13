@@ -1,7 +1,7 @@
 {
   "general": {
     "boltAction": true,
-    "rate": 18,
+    "rate": 28,
     "rateSelector": [
       0,
       1
